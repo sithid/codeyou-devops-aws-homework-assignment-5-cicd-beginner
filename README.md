@@ -1,42 +1,6 @@
-## Homework Assignment 5 - CI/CD Beginner
 
-Some ideas:
-- Students use the following  techniques in the pipeline against a python app
-    - Use security scan tools:
-        - Snyk (dependencies)
-        - Bandit
-        - Semgrep
-        - Trivy (docker image)
-        - Checkov (Dockerfile)
-    - Linting:
-        - PyLint
-        - Flake8
-    - Docker building
-    - Docker pushing
-    - Run tests
+## **Homework Assignment: Implementing a CI/CD Pipeline for a Flask App**
 
-
-### First Homework:
-1. Build the basic pipeline
-2. Checking for linting
-3. Checking for security issues
-
-
-### Second Homework:
-1. Building pipeline
-2. Adding linting
-3. Check for security issues
-4. Build image
-4. Run the tests
-5. Push image
-6. Use secrets
-7. Use environment variables
-8. Have a pipeline file for pushes to `prod` and another for pushes to `staging`
-
-
-**Homework Assignment: Implementing a CI/CD Pipeline for a Flask App**
-
----
 
 ### **Objective**  
 Implement a CI/CD pipeline for a Python Flask app to check for linting issues, dependency vulnerabilities, and code security flaws. Use GitHub Actions to automate this process.
