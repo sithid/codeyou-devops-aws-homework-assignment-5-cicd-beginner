@@ -1,7 +1,6 @@
 
 ## **Homework Assignment: Implementing a CI/CD Pipeline for a Flask App**
 
-
 ### **Objective**  
 Implement a CI/CD pipeline for a Python Flask app to check for linting issues, dependency vulnerabilities, and code security flaws. Use GitHub Actions to automate this process.
 
