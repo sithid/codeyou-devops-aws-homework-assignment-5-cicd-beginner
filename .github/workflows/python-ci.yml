@@ -30,7 +30,7 @@ jobs:
       # Run safety for dependency vulnerability, verify requirements.txt exists.
       - name: Run safety
         run: |
-          if [ -f requirements.txt; then
+          if [ -f requirements.txt ]; then
             safety check -r requirements.txt
           else
             echo "requirements.txt not found, skipping safety check"
