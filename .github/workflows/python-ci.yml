@@ -39,4 +39,4 @@ jobs:
       # Run bandit to scan python files for security vunerabilities.
       - name: Run bandit
         run: |
-          bandit - r .
+          bandit -r .
